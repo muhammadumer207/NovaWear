@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Checkout</title>
+
+<link rel="stylesheet"
+href="css/styles.css">
+
+</head>
+
+<body>
+
+<div class="checkout-box">
+
+<h1>Checkout</h1>
+
+<form id="checkoutForm">
+
+<input type="text"
+placeholder="Full Name"
+required>
+
+<input type="number"
+placeholder="Phone Number"
+required>
+
+<input type="text"
+placeholder="Full Address"
+required>
+
+<select required>
+
+<option>
+Payment Method
+</option>
+
+<option>
+Cash On Delivery
+</option>
+
+<option>
+Credit / Debit Card
+</option>
+
+<option>
+PayPal
+</option>
+
+<option>
+Payoneer
+</option>
+
+<option>
+JazzCash
+</option>
+
+<option>
+EasyPaisa
+</option>
+
+</select>
+
+<input type="text"
+placeholder="Card Number">
+
+<input type="text"
+placeholder="Expiry Date">
+
+<input type="text"
+placeholder="CVV">
+
+<button type="submit">
+Place Order
+</button>
+
+</form>
+
+<button class="invoice-btn"
+onclick="downloadInvoice()">
+
+Download Invoice
+
+</button>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
